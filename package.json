@@ -3,15 +3,24 @@
   "version": "0.6.2",
   "description": "MCP server for Brave Search API integration which supports http proxying",
   "license": "MIT",
-  "author": "Anthropic, PBC (https://anthropic.com)",
-  "homepage": "https://modelcontextprotocol.io",
-  "bugs": "https://github.com/modelcontextprotocol/servers/issues",
+  "homepage": "https://github.com/kwp-lab/mcp-brave-search",
+  "bugs": "https://github.com/kwp-lab/mcp-brave-search/issues",
   "type": "module",
-  "bin": {
-    "mcp-server-brave-search": "dist/index.js"
-  },
+  "main": "dist/index.js",
+  "bin": "dist/index.js",
   "files": [
     "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kwp-lab/mcp-brave-search.git"
+  },
+  "keywords": [
+    "mcp",
+    "brave",
+    "search",
+    "api",
+    "proxy"
   ],
   "scripts": {
     "build": "tsc && shx chmod +x dist/*.js",

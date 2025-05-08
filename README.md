@@ -76,7 +76,7 @@ Add this to your `claude_desktop_config.json`:
       "command": "npx",
       "args": [
         "-y",
-        "@modelcontextprotocol/server-brave-search"
+        "@kwp-lab/mcp-brave-search"
       ],
       "env": {
         "BRAVE_API_KEY": "YOUR_API_KEY_HERE",
@@ -151,7 +151,7 @@ Optionally, you can add it to a file called `.vscode/mcp.json` in your workspace
     "servers": {
       "brave-search": {
         "command": "npx",
-        "args": ["-y", "@modelcontextprotocol/server-brave-search"],
+        "args": ["-y", "@kwp-lab/mcp-brave-search"],
         "env": {
           "BRAVE_API_KEY": "${input:brave_api_key}",
           "BRAVE_SEARCH_PROXY": "https://example.com:10890" // Optional, remove if not needed
