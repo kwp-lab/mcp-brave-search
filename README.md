@@ -2,7 +2,7 @@
 
 An MCP server implementation that integrates the Brave Search API, providing both web and local search capabilities.
 
-This repository forks from the the [Model Context Protocol servers](https://github.com/modelcontextprotocol/servers) and replaces the native `fetch` implementation with the library [node-fetch-native](https://www.npmjs.com/package/node-fetch-native).
+This repository forks from the [Model Context Protocol servers](https://github.com/modelcontextprotocol/servers) and replaces the native `fetch` implementation with the library [node-fetch-native](https://www.npmjs.com/package/node-fetch-native).
 
 The server will use the `http_proxy` and `https_proxy` environment variables to route requests through the proxy server by default if they are set.
 You also can set the `BRAVE_SEARCH_PROXY` environment variable to use a different proxy server.
