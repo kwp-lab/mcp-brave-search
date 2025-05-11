@@ -1,6 +1,6 @@
 {
   "name": "@kwp-lab/mcp-brave-search",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "description": "MCP server for Brave Search API integration which supports http proxying",
   "license": "MIT",
   "homepage": "https://github.com/kwp-lab/mcp-brave-search",
