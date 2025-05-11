@@ -1,6 +1,10 @@
 # Brave Search MCP Server
 
-An MCP server implementation that integrates the Brave Search API, providing both web and local search capabilities.
+An MCP server leveraging the Brave Search API for web and local search, with optional HTTP proxy configuration.
+
+<a href="https://glama.ai/mcp/servers/@kwp-lab/mcp-brave-search">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@kwp-lab/mcp-brave-search/badge" />
+</a>
 
 This repository forks from the [Model Context Protocol servers](https://github.com/modelcontextprotocol/servers) and replaces the native `fetch` implementation with the library [node-fetch-native](https://www.npmjs.com/package/node-fetch-native).
 
